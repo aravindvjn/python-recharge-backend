@@ -1,0 +1,23 @@
+# Production requirements for Recharge Backend
+Django==5.2.4
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.0
+PyJWT==2.9.0
+drf-yasg==1.21.7
+Pillow==10.4.0
+
+# Production specific packages
+gunicorn==21.2.0
+psycopg2-binary==2.9.9
+whitenoise==6.6.0
+django-cors-headers==4.3.1
+
+# Security and monitoring
+django-ratelimit==4.1.0
+django-environ==0.11.2
+sentry-sdk==1.38.0
+
+# Performance
+redis==5.0.1
+django-redis==5.4.0
+celery==5.3.4
